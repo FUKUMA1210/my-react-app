@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -9,7 +8,7 @@ createRoot(document.getElementById('root')!).render(
 )
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './login/App'; // 確保路徑正確
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
