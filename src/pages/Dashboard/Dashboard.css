@@ -9,6 +9,16 @@ body.font-large {
   font-size: 1.35rem;
 }
 
+/* 黑白主題 */
+body.theme-light {
+  background-color: #ffffff;
+  color: #222222;
+}
+body.theme-dark {
+  background-color: #1e1e1e;
+  color: #dddddd;
+}
+
 #wrapper > * > .inner {
   width: 100%;
   max-width: 68em;
@@ -20,6 +30,7 @@ body.font-large {
   padding: 0 0 6em 0;
 }
 
+/* 字體大小 */
 .font-control {
   position: absolute;
   top: 1rem;
@@ -43,7 +54,7 @@ body.font-large {
   color: #fff;
   border-color: #f2849e;
 }
-
+/* 使用者頭像 */
 .dashboard-avatar {
   width: 3rem;
   height: 3rem;
@@ -52,4 +63,5 @@ body.font-large {
   cursor: pointer;
   margin-bottom: 1.5rem;
 }
+
 
